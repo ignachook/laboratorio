@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
     font-weight: 400;
@@ -63,7 +63,7 @@ body {
     width: 0%;
     height: 2px;
     background: #fff;
-    transition: .3s;
+    transition: .5s;
 }
 
 .navbar a:hover::before {
@@ -94,21 +94,22 @@ body {
 }
 
 .main-title h1 {
+    border: black 10px;
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 20px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background: linear-gradient(90deg, #210258);
     background-clip: text;
-    color: transparent;
+    color: #dacbcb;
     animation: fadeIn 2s ease-in-out;
 }
 
 .main-title p {
     font-size: 24px;
     font-weight: 300;
-    text-shadow: 10px 1px 3px rgba(2, 7, 9, 8.3);
+    text-shadow: 10px 1px 3px rgba(0, 0, 0, 0.3);
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -129,10 +130,27 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 100px;
+    transition: background-color 0.7s;
   }
   
   .cta-button:hover {
-    background-color: #4a00cc; /* Ajusta el color del hover según sea necesario */
+    background-color: #190146; /* Ajusta el color del hover según sea necesario */
+}
+
+/** .container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.section article {
+    background-color: #000000;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+**/
+footer {
+    background-color: #2222;
+    padding: 3rem;
+    color:#fff;
 }
