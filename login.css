@@ -13,21 +13,22 @@ body {
 
 @keyframes backgroundAnimation {
     0% {
-        background-color: #f5f5f5;
+        background-color: #845d8b;
     }
     50% {
-        background-color: #e0f7fa;
+        background-color: #9a32a3;
     }
     100% {
-        background-color: #f5f5f5;
+        background-color: #8b14a3;
     }
 }
 
 .login-container {
+    border: 1px solid #000000;
     background-color: #fff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     width: 350px;
     text-align: center;
     animation: fadeIn 0.7s ease-in-out;
